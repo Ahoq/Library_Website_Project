@@ -29,10 +29,8 @@ posts = [
 
 
 def home(request):
-	context ={
-		'posts': posts
-	}
-	return render(request, 'museum/index.html', context)
+
+	return render(request, 'museum/index.html')
 
 def hours(request):
 	return render(request, 'museum/hours.html/')
