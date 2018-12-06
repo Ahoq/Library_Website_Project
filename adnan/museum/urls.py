@@ -9,4 +9,5 @@ urlpatterns = [
     path('ex2/', views.ex2, name = 'museum-ex2'),
     path('ex3/', views.ex3, name = 'museum-ex3'),
     path('ex4/', views.ex4, name = 'museum-ex4'),
+    path('map/', views.map, name = 'museum-map'),
 ]

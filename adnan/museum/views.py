@@ -50,6 +50,9 @@ def ex3(request):
 def ex4(request):
 	return render(request, 'museum/ex4.html/')
 
+def map(request):
+	return render(request, 'museum/map.html/')
+
 
 
 
